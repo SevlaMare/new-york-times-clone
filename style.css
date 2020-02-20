@@ -1,3 +1,67 @@
 *{
 	margin: 0px;
 }
+
+a {
+	text-decoration: none;
+}
+
+/* TOP NAV BAR */
+.flex1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30px;
+	color: #fff;
+	background: #333;
+}
+
+
+/* ASIDE */
+aside {
+	float: right;
+	background: #444;
+}
+
+/* MAIN  */
+main {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;;
+
+	max-width: %60;
+	background: gray;
+}
+
+
+#image1 {
+	width: 75%;
+}
+
+main figcaption {
+	width: 75%;
+}
+
+article {
+	width: 550px;
+	height: 1000px;
+	background: #444;
+}
+
+.flex-article {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* CENTER GRID */
+.grid {
+	display: grid;
+	width: 800px;
+}
+
+#grid-image1 {
+	width: 60%;
+	margin: 300px;
+}
