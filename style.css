@@ -98,7 +98,7 @@ main figcaption {
 
 article {
 	width: 550px;
-	height: 1000px;
+	/* height: fit-content; */
 	background: #444;
 }
 
@@ -116,32 +116,47 @@ article {
 }
 
 /* CENTER GRID */
-/* .grid {
+.grid-container{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left:auto;
+}
+.grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
-	grid-gap: 100px 20px;
+	grid-gap: 10px 20px;
 
 	width: 800px;
-	background: blue;
+	
 }
 
-/* .grid-tem1 {
-	grid-column: 1;
-	grid-row: 1;
-	background: #fff;
+.grid-item {
+	padding-top: 150px ;
+	font-size: small;
 }
-
+.bg-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
 #grid-image1 {
-	width: 60%;
-	margin: 300px;
-} */
+	width: 800px;
+	height: 600px;
+}
 
 /* --------- SECOND ARTICLE ---------- */
 
 .footer-article-2 {
 	display: flex;
 	justify-content: space-between;
+}
+.article-2 {
+	background-color: brown;
 }
 
 
@@ -157,8 +172,29 @@ article {
 	display: flex;
 	flex-direction: column;
 	background: blue;
+	width: 30%;
 }
 
 .astronomy {
 	background: orange;
+	width: 70%;
+}
+
+.more-news {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10px 20px;
+}
+
+.editors {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+}
+
+/*** footer **/
+.footer {
+	display: flex;
+	justify-content: space-between;
 }
