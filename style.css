@@ -107,14 +107,58 @@ article {
 	justify-content: space-between;
 }
 
+.video-caption {
+	width: 600px;
+}
+
+.jumbo1 {
+	width: 550px;
+}
 
 /* CENTER GRID */
-.grid {
+/* .grid {
 	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 100px 20px;
+
 	width: 800px;
+	background: blue;
+}
+
+/* .grid-tem1 {
+	grid-column: 1;
+	grid-row: 1;
+	background: #fff;
 }
 
 #grid-image1 {
 	width: 60%;
 	margin: 300px;
+} */
+
+/* --------- SECOND ARTICLE ---------- */
+
+.footer-article-2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* ------- LAST SECTION --------- */
+.last-section {
+	display: flex;
+	justify-content: center;
+	background: green;
+}
+
+
+.most-popular {
+	display: flex;
+	flex-direction: column;
+	background: blue;
+}
+
+.astronomy {
+	background: orange;
 }
