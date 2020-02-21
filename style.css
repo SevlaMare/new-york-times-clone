@@ -22,7 +22,7 @@ ul {
   color: #333;
   background: #fff;
   padding: 10px;
-  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.54);
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.54);
 }
 
 .toggler {
@@ -135,8 +135,6 @@ main figcaption {
   width: 75%;
   margin: 10px 0 10px;
 }
-
-
 
 .head-article {
   display: inline;
