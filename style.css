@@ -52,7 +52,7 @@ a {
 }
 
 .btn-nav {
-	background-color:#567b95;
+	background-color: #567b95;
 	border: 1px solid #326891;
 	color: #fff;
 	font-size: 11px;
@@ -60,7 +60,7 @@ a {
 	font-weight: 700;
 	border-radius: 5px;
 	padding: 10px;
-} 
+}
 
 /* ASIDE */
 aside {
@@ -98,7 +98,6 @@ main figcaption {
 
 article {
 	width: 550px;
-	/* height: fit-content; */
 	background: #444;
 }
 
@@ -116,27 +115,27 @@ article {
 }
 
 /* CENTER GRID */
-.grid-container{
+.grid-container {
 	display: flex;
 	justify-content: center;
 	position: absolute;
 	top: 0;
-	left:auto;
+	left: auto;
 }
+
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	grid-gap: 10px 20px;
-
 	width: 800px;
-	
 }
 
 .grid-item {
 	padding-top: 150px ;
 	font-size: small;
 }
+
 .bg-container {
 	display: flex;
 	justify-content: center;
@@ -144,6 +143,7 @@ article {
 	align-items: center;
 	position: relative;
 }
+
 #grid-image1 {
 	width: 800px;
 	height: 600px;
