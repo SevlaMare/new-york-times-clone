@@ -4,6 +4,7 @@
 
 a {
   text-decoration: none;
+  color: #333;
 }
 
 ul {
@@ -23,6 +24,10 @@ ul {
   background: #fff;
   padding: 10px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.54);
+}
+
+#logo {
+  width: 200px;
 }
 
 .toggler {
@@ -267,6 +272,14 @@ aside hr {
   background: #fff;
 }
 
+.last-section p {
+  color: #333;
+}
+
+.last-section small {
+  color: gray;
+}
+
 #title-grid2 {
   margin-bottom: 10px;
 }
@@ -285,10 +298,16 @@ aside a {
 
 .most-popular a {
   margin: 15px 0;
+  color: #333;
 }
 
 #hr-unique {
   margin-bottom: 40px;
+}
+
+.light-gray {
+  border-color: lightgray;
+  border-style: inset;
 }
 
 .astronomy {
@@ -327,6 +346,7 @@ aside a {
   margin-right: 10px;
   font-size: 0.7rem;
   padding: 20px 0;
+  color: #333;
 }
 
 .footer-float {
