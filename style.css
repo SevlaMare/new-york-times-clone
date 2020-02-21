@@ -15,9 +15,10 @@ a {
 	width: 99%;
 	align-items: center;
 	height: 30px;
-	color: #fff;
-	background: #333;
+	color: #333;
+	background: #fff;
 	padding: 10px;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.54);
 }
 
 .toggler {
@@ -26,7 +27,7 @@ a {
 	align-items: center;
 	height: 30px;
 	color: #fff;
-	background: #333;
+	background: #fff;
 }
 
 .menu-icon {
@@ -37,8 +38,14 @@ a {
 	width: 20px;
 }
 
+.link-navbar{
+	color: #333;
+	font-weight: bold;
+}
+
 .link-navbar:hover {
 	text-decoration: underline;
+	color: #333;
 }
 
 .toggler {
@@ -73,12 +80,30 @@ a {
 	font-style: italic;
 }
 
+article {
+	font-size: 1.2rem;
+}
+
+article p{
+	margin-bottom: 20px;
+}
+
 main {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	background: gray;
+	background: #fff;
+}
+
+.article-icons {
+	display: flex;
+}
+
+.article-icons img{
+	width: 20px;
+	height: 20px;
+	margin-left: 20px;
 }
 
 #image1 {
@@ -96,12 +121,30 @@ main figcaption {
 
 article {
 	width: 550px;
-	background: #444;
+	background: #fff;
+}
+
+.head-article {
+	display: inline;
 }
 
 .flex-article {
 	display: flex;
 	justify-content: space-between;
+	margin: 30px 0;
+
+}
+
+.free-articles {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.free-articles hr {
+	width: 20%;
+	margin:20px;
 }
 
 .video-caption {
@@ -142,6 +185,16 @@ article {
 	position: relative;
 }
 
+.text-grid {
+	width: 800px;
+
+}
+
+.text-grid hr {
+	width: 40px;
+	margin-bottom: 10px;
+}
+
 #grid-image1 {
 	width: 800px;
 	height: 600px;
@@ -154,10 +207,18 @@ article {
 	justify-content: space-between;
 }
 .article-2 {
-	background-color: brown;
+	background-color: #fff;
+	margin-top: 20px;
 }
 
+.video-caption {
+	margin-bottom: 50px;
+	display: block;
+}
 
+.title-end {
+	margin-bottom: 20px;
+}
 /* ------- LAST SECTION --------- */
 .last-section {
 	display: flex;
@@ -227,15 +288,24 @@ aside {
 
 	width: 200px;
 	margin-right: 100px;
-	background: #444;
+	background: #fff;
 }
 
 aside img {
 	width: 80px;
+	margin: 5px;
 }
 
 
 aside figure {
 	display: flex;
 	align-items: center;
+}
+
+aside a {
+	color: #333;
+}
+
+aside hr {
+	margin: 5px 0;
 }
