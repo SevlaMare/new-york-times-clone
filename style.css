@@ -6,6 +6,9 @@ a {
 	text-decoration: none;
 }
 
+ul { list-style-type: none; }
+
+
 /* TOP NAV BAR */
 .navbar {
 	display: flex;
@@ -94,6 +97,10 @@ main {
 	flex-direction: column;
 	align-items: center;
 	background: #fff;
+}
+
+.large {
+	width: 300px;
 }
 
 .article-icons {
@@ -200,11 +207,36 @@ article {
 	height: 600px;
 }
 
+.more-news img {
+	width: 100%;
+}
+
+.more-news p {
+	font-size: 1.2rem;
+}
+
+.grid-info {
+	text-align: right;
+}
+
+.astronomy hr {
+	margin: 20px 0;
+}
+
+.editors img {
+	width: 100%;
+}
+
+.editors p {
+	font-size: 1.2rem;
+}
+
 /* --------- SECOND ARTICLE ---------- */
 
 .footer-article-2 {
 	display: flex;
 	justify-content: space-between;
+	margin: 20px 0;
 }
 .article-2 {
 	background-color: #fff;
@@ -219,24 +251,44 @@ article {
 .title-end {
 	margin-bottom: 20px;
 }
+
+.small-text {
+	font-size: 0.7rem;
+}
+
+
 /* ------- LAST SECTION --------- */
 .last-section {
 	display: flex;
 	justify-content: center;
-	background: green;
+	background: #fff;
+}
+
+#title-grid2 {
+	margin-bottom: 10px;
 }
 
 
 .most-popular {
 	display: flex;
 	flex-direction: column;
-	background: blue;
+	background: #fff;
 	width: 30%;
+	margin-top: 20px;
+}
+
+.most-popular a {
+	margin: 15px 0;
+}
+
+#hr-unique {
+	margin-bottom: 40px;
 }
 
 .astronomy {
-	background: orange;
+	background: #fff;
 	width: 70%;
+	margin: 0 45px;
 }
 
 .more-news {
@@ -250,6 +302,9 @@ article {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 20px;
+
+	margin-top: 20px;
+	margin-bottom: 60px;
 }
 
 /*** footer **/
