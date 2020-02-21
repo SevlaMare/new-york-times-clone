@@ -10,6 +10,8 @@ a {
 .navbar {
 	display: flex;
 	justify-content: space-between;
+	position: fixed;
+	width: 99%;
 	align-items: center;
 	height: 30px;
 	color: #fff;
@@ -62,17 +64,12 @@ a {
 	padding: 10px;
 }
 
-/* ASIDE */
-aside {
-	float: right;
-	background: #444;
-}
-
 /* MAIN  */
 .article-title {
 	margin-left: -100px;
-	margin-top: 40px;
+	margin-top: 80px;
 	margin-bottom: 30px;
+	font-style: italic;
 }
 
 main {
@@ -197,4 +194,10 @@ article {
 .footer {
 	display: flex;
 	justify-content: space-between;
+}
+
+/* ASIDE */
+aside {
+	position: absolute;
+	background: #444;
 }
