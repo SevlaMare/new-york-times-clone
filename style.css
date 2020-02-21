@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: 0;
 }
 
 a {
@@ -22,7 +22,7 @@ ul {
   color: #333;
   background: #fff;
   padding: 10px;
-  box-shadow: 0px 5px 5px 0px rgba(0,0,0, 0.54);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.54);
 }
 
 .toggler {
@@ -32,6 +32,7 @@ ul {
   height: 30px;
   color: #fff;
   background: #fff;
+  width: fit-content;
 }
 
 .menu-icon {
@@ -50,10 +51,6 @@ ul {
 .link-navbar:hover {
   text-decoration: underline;
   color: #333;
-}
-
-.toggler {
-  width: fit-content;
 }
 
 .toggler > * {
@@ -86,6 +83,8 @@ ul {
 
 article {
   font-size: 1.2rem;
+  width: 550px;
+  background: #fff;
 }
 
 article p {
@@ -102,6 +101,16 @@ main {
 
 .large {
   width: 300px;
+}
+
+aside img {
+  width: 80px;
+  margin: 5px;
+}
+
+footer img {
+  width: 200px;
+  margin: 10px  auto 30px 40px;
 }
 
 .article-icons {
@@ -127,13 +136,14 @@ main figcaption {
   margin: 10px 0 10px;
 }
 
-article {
-  width: 550px;
-  background: #fff;
-}
+
 
 .head-article {
   display: inline;
+}
+
+aside hr {
+  margin: 5px 0;
 }
 
 .flex-article {
@@ -151,11 +161,13 @@ article {
 
 .free-articles hr {
   width: 20%;
-  margin:20px;
+  margin: 20px;
 }
 
 .video-caption {
   width: 600px;
+  margin-bottom: 50px;
+  display: block;
 }
 
 .jumbo1 {
@@ -180,7 +192,7 @@ article {
 }
 
 .grid-item {
-  padding-top: 150px ;
+  padding-top: 150px;
   font-size: small;
 }
 
@@ -242,11 +254,6 @@ article {
   margin-top: 20px;
 }
 
-.video-caption {
-  margin-bottom: 50px;
-  display: block;
-}
-
 .title-end {
   margin-bottom: 20px;
 }
@@ -264,6 +271,10 @@ article {
 
 #title-grid2 {
   margin-bottom: 10px;
+}
+
+aside a {
+  color: #333;
 }
 
 .most-popular {
@@ -341,22 +352,9 @@ aside {
   background: #fff;
 }
 
-aside img {
-  width: 80px;
-  margin: 5px;
-}
-
 aside figure {
   display: flex;
   align-items: center;
-}
-
-aside a {
-  color: #333;
-}
-
-aside hr {
-  margin: 5px 0;
 }
 
 .footer-element {
@@ -368,13 +366,8 @@ li {
   font-size: 0.8rem;
 }
 
-footer img {
-  width: 200px;
-  margin: 10px  auto 30px 40px;
-}
-
 #footer-hr {
-  border-top: double; 
+  border-top: double;
   margin-left: 25px;
   margin-right: 25px;
 }
