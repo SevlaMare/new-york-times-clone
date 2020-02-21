@@ -1,281 +1,281 @@
 * {
-	margin: 0px;
+  margin: 0px;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 /* TOP NAV BAR */
 .navbar {
-	display: flex;
-	justify-content: space-between;
-	position: fixed;
-	z-index: 2;
-	width: 99%;
-	align-items: center;
-	height: 30px;
-	color: #333;
-	background: #fff;
-	padding: 10px;
-	box-shadow: 0px 5px 5px 0px rgba(0,0,0, 0.54);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  width: 99%;
+  align-items: center;
+  height: 30px;
+  color: #333;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0, 0.54);
 }
 
 .toggler {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 30px;
-	color: #fff;
-	background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  color: #fff;
+  background: #fff;
 }
 
 .menu-icon {
-	width: 20px;
+  width: 20px;
 }
 
 .search-icon {
-	width: 20px;
+  width: 20px;
 }
 
 .link-navbar {
-	color: #333;
-	font-weight: bold;
+  color: #333;
+  font-weight: bold;
 }
 
 .link-navbar:hover {
-	text-decoration: underline;
-	color: #333;
+  text-decoration: underline;
+  color: #333;
 }
 
 .toggler {
-	width: fit-content;
+  width: fit-content;
 }
 
 .toggler > * {
-	margin: 10px;
+  margin: 10px;
 }
 
 .title {
-	font-size: 2rem;
-	font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
 }
 
 .btn-nav {
-	background-color: #567b95;
-	border: 1px solid #326891;
-	color: #fff;
-	font-size: 11px;
-	line-height: 11px;
-	font-weight: 700;
-	border-radius: 5px;
-	padding: 10px;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 /* MAIN  */
 .article-title {
-	margin-left: -100px;
-	margin-top: 80px;
-	margin-bottom: 30px;
-	font-style: italic;
+  margin-left: -100px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-style: italic;
 }
 
 article {
-	font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-article p{
-	margin-bottom: 20px;
+article p {
+  margin-bottom: 20px;
 }
 
 main {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
 }
 
 .large {
-	width: 300px;
+  width: 300px;
 }
 
 .article-icons {
-	display: flex;
+  display: flex;
 }
 
 .article-icons img {
-	width: 20px;
-	height: 20px;
-	margin-left: 20px;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
 }
 
 #image1 {
-	width: 75%;
+  width: 75%;
 }
 
 main figcaption {
-	width: 80%;
+  width: 80%;
 }
 
 .capture-container {
-	width: 75%;
-	margin: 10px 0 10px;
+  width: 75%;
+  margin: 10px 0 10px;
 }
 
 article {
-	width: 550px;
-	background: #fff;
+  width: 550px;
+  background: #fff;
 }
 
 .head-article {
-	display: inline;
+  display: inline;
 }
 
 .flex-article {
-	display: flex;
-	justify-content: space-between;
-	margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
 }
 
 .free-articles {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .free-articles hr {
-	width: 20%;
-	margin:20px;
+  width: 20%;
+  margin:20px;
 }
 
 .video-caption {
-	width: 600px;
+  width: 600px;
 }
 
 .jumbo1 {
-	width: 550px;
+  width: 550px;
 }
 
 /* CENTER GRID */
 .grid-container {
-	display: flex;
-	justify-content: center;
-	position: absolute;
-	top: 0;
-	left: auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: auto;
 }
 
 .grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	grid-gap: 10px 20px;
-	width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px 20px;
+  width: 800px;
 }
 
 .grid-item {
-	padding-top: 150px ;
-	font-size: small;
+  padding-top: 150px ;
+  font-size: small;
 }
 
 .bg-container {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 .text-grid {
-	width: 800px;
+  width: 800px;
 }
 
 .text-grid hr {
-	width: 40px;
-	margin-bottom: 10px;
+  width: 40px;
+  margin-bottom: 10px;
 }
 
 #grid-image1 {
-	width: 800px;
-	height: 600px;
+  width: 800px;
+  height: 600px;
 }
 
 .more-news img {
-	width: 100%;
+  width: 100%;
 }
 
 .more-news p {
-	font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .grid-info {
-	text-align: right;
+  text-align: right;
 }
 
 .astronomy hr {
-	margin: 20px 0;
+  margin: 20px 0;
 }
 
 .editors img {
-	width: 100%;
+  width: 100%;
 }
 
 .editors p {
-	font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 /* --------- SECOND ARTICLE ---------- */
 .footer-article-2 {
-	display: flex;
-	justify-content: space-between;
-	margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
 }
 
 .article-2 {
-	background-color: #fff;
-	margin-top: 20px;
+  background-color: #fff;
+  margin-top: 20px;
 }
 
 .video-caption {
-	margin-bottom: 50px;
-	display: block;
+  margin-bottom: 50px;
+  display: block;
 }
 
 .title-end {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .small-text {
-	font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
 /* ------- LAST SECTION --------- */
 .last-section {
-	display: flex;
-	justify-content: center;
-	background: #fff;
+  display: flex;
+  justify-content: center;
+  background: #fff;
 }
 
 #title-grid2 {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .most-popular {
-	display: flex;
-	flex-direction: column;
-	background: #fff;
-	width: 30%;
-	margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 30%;
+  margin-top: 20px;
 }
 
 .most-popular a {
-	margin: 15px 0;
+  margin: 15px 0;
 }
 
 #hr-unique {
@@ -303,7 +303,7 @@ article {
   margin-bottom: 60px;
 }
 
-/*** footer **/
+/* --- footer --- */
 .footer-list {
   display: flex;
   justify-content: space-between;
@@ -392,4 +392,8 @@ footer img {
 #footer-last-hr {
   margin: 20px 25px;
   border: 0.5px #555 solid;
+}
+
+.list-title {
+  font-weight: bold;
 }
