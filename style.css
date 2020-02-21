@@ -192,9 +192,30 @@ article {
 }
 
 /*** footer **/
-.footer {
+.footer-list {
 	display: flex;
 	justify-content: space-between;
+}
+
+.footer-links {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.footer-links a{
+	margin-right: 10px;
+	font-size: 0.7rem;
+	padding: 20px 0;
+}
+
+.footer-float {
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	padding: 15px 0;
+	width: 100%;
+	border-top: solid 1px #333;
+	background: #fff;
 }
 
 /* ASIDE */
